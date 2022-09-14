@@ -1,5 +1,7 @@
 @file:Suppress("UNCHECKED_CAST", "unused")
 
+package com.xu.kanwanandroid.common.util
+
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup

@@ -1,4 +1,4 @@
-
+package com.xu.kanwanandroid.common.util
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 
