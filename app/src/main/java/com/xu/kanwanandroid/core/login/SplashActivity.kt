@@ -2,12 +2,11 @@ package com.xu.kanwanandroid.core.login
 
 import android.content.Intent
 import android.os.Build
-import android.util.Log
 import android.window.SplashScreenView
 import com.xu.kanwanandroid.R
 import com.xu.kanwanandroid.base.BaseBindKtActivity
 import com.xu.kanwanandroid.base.EmptyViewModel
-import com.xu.kanwanandroid.core.main.MainActivity
+import com.xu.kanwanandroid.core.main.activity.MainActivity
 import com.xu.kanwanandroid.databinding.ActSplashBinding
 
 
@@ -32,7 +31,7 @@ class SplashActivity : BaseBindKtActivity<EmptyViewModel, ActSplashBinding>() {
     }
 
     override fun initData() {
-        startActivity(Intent(this,MainActivity::class.java))
+        startActivity(Intent(this, MainActivity::class.java))
         finish()
     }
 

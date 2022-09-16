@@ -31,7 +31,9 @@ abstract class BaseKtActivity<VM : BaseViewModel> : FragmentActivity() {
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         val layout: View = getBindLayout() ?: throw IllegalArgumentException("没有根布局")
         setContentView(layout)
-
+        initView()
+        addListener()
+        initData()
     }
 
 
