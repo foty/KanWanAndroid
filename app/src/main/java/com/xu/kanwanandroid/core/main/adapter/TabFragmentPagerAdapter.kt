@@ -9,7 +9,7 @@ import java.util.ArrayList
 /**
  * Create by lxx
  * Date : 2022/9/15 14:52
- * Use by
+ * Use by lxx
  */
 class TabFragmentPagerAdapter : FragmentPagerAdapter {
     private var fragments: List<Fragment>
